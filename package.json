@@ -1,0 +1,29 @@
+{
+  "name": "video-reddit",
+  "version": "1.0.0",
+  "description": "Download Reddit videos",
+  "main": "app.js",
+  "preferGlobal": true,
+  "bin": "./app.js",
+  "scripts": {
+    "postinstall": "npm link"
+  },
+  "keywords": [
+    "reddit",
+    "video",
+    "downloader",
+    "download",
+    "mp4",
+    "videos"
+  ],
+  "author": "arkanos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arkanos/video-reddit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "request": "^2.88.0"
+  }
+}
