@@ -2,14 +2,6 @@
 
 A CLI tool to download new Reddit's version videos.
 
-### Installing
-
-You can install the tool from NPM repository.
-
-```
-npm i -g video-reddit
-```
-
 ## Usage
 
 By default, the tool will try to download the video and audio files and merge them:
