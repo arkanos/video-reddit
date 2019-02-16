@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const   program = require('commander');
 
-const   {download} = require('./functions'),
+const   {download} = require('./include/functions'),
         package = require('./package.json');
 
 program

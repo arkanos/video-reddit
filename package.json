@@ -5,9 +5,7 @@
   "main": "app.js",
   "preferGlobal": true,
   "bin": "./app.js",
-  "scripts": {
-    "postinstall": "npm link"
-  },
+  "scripts": {},
   "keywords": [
     "reddit",
     "video",
